@@ -15,10 +15,10 @@ const Costom = () => {
                 Commonly used in the graphic, print & publishing <br/>
                 industris for previewing visual layout and <br/> mockups
               </p>
-              <img src="/public/Arrow 1 (1).png" alt="" />
+              <img src="/Arrow 1 (1).png" alt="" />
             </div>
 
-            <img src="/public/Costome 1.png" alt="" />
+            <img src="/Costome 1.png" alt="" />
           </div>
         </div>
       </section>

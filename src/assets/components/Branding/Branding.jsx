@@ -7,7 +7,7 @@ const Branging = () => {
       <section className="branding">
         <div className="container">
           <div className="branding__wrapper">
-            <img src="/public/Branding (1).png" alt="" />
+            <img src="/Branding (1).png" alt="" />
 
             <div className="branding__text">
               <h1>
@@ -19,7 +19,7 @@ const Branging = () => {
                 industris for previewing visual layout and <br /> mockups
               </p>
 
-              <img src="/public/Arrow 1 (1).png" alt="" />
+              <img src="/Arrow 1 (1).png" alt="" />
 
             </div>
           </div>

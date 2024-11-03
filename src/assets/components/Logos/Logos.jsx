@@ -9,10 +9,10 @@ const Logos = () => {
           <p class="companies__trusted">Trusted by 4,000+ companies</p>
 
           <div className="companies__logos2">
-            <img src="/public/Company logo 1.png" alt="" />
-            <img src="/public/Company logo 2.png" alt="" />
-            <img src="/public/Company logo 3.png" alt="" />
-            <img src="/public/Company logo 4.png" alt="" />
+            <img src="/Company logo 1.png" alt="" />
+            <img src="/Company logo 2.png" alt="" />
+            <img src="/Company logo 3.png" alt="" />
+            <img src="/Company logo 4.png" alt="" />
           </div>
         </div>
       </div>

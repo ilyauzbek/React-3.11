@@ -15,7 +15,7 @@ const Digital = () => {
             </div>
 
             <div className="digital__box2">
-                <img src="/public/business-1.png" alt="" />
+                <img src="/business-1.png" alt="" />
             </div>
            </div>
         </div>
