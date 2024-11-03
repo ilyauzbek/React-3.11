@@ -1,0 +1,46 @@
+.companies__logos1{
+    margin-top: 115px;
+    text-align: center;
+}
+.companies__logos2{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color: #f6f6f6;
+    border-radius: 8px;
+    padding: 20px 0 20px 0;
+    margin-bottom: 115px;
+
+    img{
+        transition: 0.8s;
+        cursor: pointer;
+
+
+        &:hover{
+            scale: 1.5;
+        }
+
+
+        @media (max-width: 900px) {
+            padding: 4px;
+            border-bottom: 3px solid #667085;
+            border-radius: 4px;
+        }
+    }
+
+
+    @media (max-width: 900px) {
+      background-color: white;
+      flex-direction: column;
+      padding: 8px 0 8px 0;
+      gap: 30px;
+      margin-bottom: 0px;
+    }
+}
+.companies__trusted{
+    font-size: 16px;
+    font-weight: 300;
+    color: #667085;
+    margin-bottom: 15px;
+}

@@ -1,0 +1,41 @@
+.header__wrapper1{
+    display: flex;
+    justify-content:center;
+    gap: 502px;
+    margin-top: 60px;
+
+    @media (max-width: 1200px) {
+        gap: 200px;
+      
+    }
+
+    @media (max-width: 900px) {
+      flex-direction: column;
+      align-items: center;
+      gap: 19px;
+    }
+
+   
+}
+.header__agency{
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.header__menu{
+    display: flex;
+    gap: 30px;
+    a{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        text-decoration: none;
+        color: #272D38;
+        transition: 0.8s;
+
+
+        &:hover{
+            color: #698dbc;
+        }
+    }
+}
