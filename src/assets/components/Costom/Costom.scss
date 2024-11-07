@@ -39,6 +39,11 @@
     }
     img{
         cursor: pointer;
+        transition: 0.8s;
+
+        &:hover{
+            scale: 1.4;
+        }
 
         @media (max-width: 900px) {
           display: none;

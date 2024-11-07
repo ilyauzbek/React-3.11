@@ -5,6 +5,9 @@ import Digital from './assets/components/Digital/Digital'
 import Logos from './assets/components/Logos/Logos'
 import Branging from './assets/components/Branding/Branding'
 import Costom from './assets/components/Costom/Costom'
+import Cards from './assets/components/Cards/Cards'
+import Part from './assets/components/Part/Part'
+import Footer from './assets/components/Footer/Footer'
 
 const App = () => {
   return (
@@ -15,6 +18,9 @@ const App = () => {
       <Logos/>
       <Branging/>
       <Costom/>
+      <Cards/>
+      <Part/>
+      <Footer/>
 
     </>
   )

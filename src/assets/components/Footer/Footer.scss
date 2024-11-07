@@ -1,0 +1,135 @@
+.footer__contacts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 178px;
+
+
+  @media (max-width: 1090px) {
+    gap: 90px;
+    
+  }
+  @media (max-width: 800px) {
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+  }
+}
+.footer__agency {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+
+  h5 {
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  p {
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(155, 155, 155);
+    padding-top: 14px;
+  }
+}
+
+.footer__wrapper {
+  background: rgba(246, 246, 246, 1);
+  border-radius: 20px;
+}
+
+.footer__resurs {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+
+  h5 {
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  a {
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(155, 155, 155);
+    text-decoration: none;
+    transition: 0.4s;
+
+
+    &:hover{
+        color: #698dbc;
+    }
+  }
+}
+.footer__company {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+
+  h5 {
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  a {
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(155, 155, 155);
+    text-decoration: none;
+    transition: 0.4s;
+
+
+    &:hover{
+        color: #698dbc;
+    }
+  }
+}
+.footer__social {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+
+  h5 {
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  a {
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(155, 155, 155);
+    text-decoration: none;
+    transition: 0.4s;
+
+
+    &:hover{
+        color: #698dbc;
+    }
+  }
+}
+
+.footer__text {
+  align-items: center;
+  text-align: center;
+  padding-bottom: 20px;
+
+  a {
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(155, 155, 155);
+    transition: 0.4s;
+
+
+    &:hover{
+        color: #698dbc;
+    }
+    
+  }
+}
