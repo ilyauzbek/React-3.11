@@ -1,0 +1,16 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    margin-top: 50px;
+
+    gap: 20px;
+
+
+
+    link{
+        text-decoration: none;
+    }
+}
+
+

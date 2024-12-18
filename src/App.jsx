@@ -1,27 +1,31 @@
 import React from 'react'
 import './App.scss'
-import Header from './assets/components/Header/Header'
-import Digital from './assets/components/Digital/Digital'
-import Logos from './assets/components/Logos/Logos'
-import Branging from './assets/components/Branding/Branding'
-import Costom from './assets/components/Costom/Costom'
-import Cards from './assets/components/Cards/Cards'
-import Part from './assets/components/Part/Part'
-import Footer from './assets/components/Footer/Footer'
+import { Route, Routes } from 'react-router-dom'
+import Header from './components/Header/Header'
+import Home from './pages/Home'
+import SinglePage from './pages/SinglePage'
+import Cart from './pages/CArt'
+
 
 const App = () => {
   return (
-   
     <>
       <Header/>
-      <Digital/>
-      <Logos/>
-      <Branging/>
-      <Costom/>
-      <Cards/>
-      <Part/>
-      <Footer/>
 
+      
+      
+    <Routes>
+      <Route path='/'  element={<Home />}/>
+
+      <Route path='/product/:id' element={<SinglePage />}/>
+
+      <Route path='/cart' element={<Cart/>}/>
+
+    </Routes>
+
+
+
+    
     </>
   )
 }

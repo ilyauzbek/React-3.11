@@ -1,0 +1,46 @@
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 44px;
+
+  padding: 20px 0 30px;
+}
+
+
+.menu {
+  display: flex;
+  gap: 27px;
+
+  a {
+    color: black;
+    text-transform: none;
+   
+  }
+}
+
+.logo {
+  text-transform: uppercase;
+  color: black;
+  text-decoration: none;
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.search {
+  max-width: 500px;
+  width: 100%;
+  padding: 12px;
+  padding-left: 52px;
+  border: none;
+  border-radius: 62px;
+  background-color: #f0f0f0;
+  background-position: 20px;
+  background-image: url(/search-icon\ .svg);
+  background-repeat: no-repeat;
+}
+
+.box {
+  display: flex;
+  gap: 15px;
+}

@@ -1,0 +1,17 @@
+.brands__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 106px;
+    background-color: black;
+    padding: 44px 0 44px 0;
+
+
+    img{
+        transition: transform 0.5s ease;
+
+        &:hover{
+            scale: 1.3;
+        }
+    }
+}
